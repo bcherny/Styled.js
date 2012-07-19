@@ -1,6 +1,6 @@
 ## Styled.js
 
-High performance, dependency free, cross-browser styled `<select>`s
+High performance, dependency free, cross-browser styled `<select>`'s
 
 ## Browser support
 
