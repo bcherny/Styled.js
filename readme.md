@@ -1,6 +1,6 @@
 ## Styled.js
 
-High performance, dependency free, cross-browser styled `<select>`'s
+High performance, dependency free, cross-browser styled `<select>`s
 
 ## Browser support
 
@@ -27,10 +27,10 @@ If using the dependency-free version:
 <script type="text/javascript" src="javascripts/styled.js"></script>
 ```
 
-Or if using the Mootools version,
+Or if using the Mootools version:
 
 ```html
-<script type="text/javascript" src="javascripts/lib/mootools-core-1.4.5.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
 <script type="text/javascript" src="javascripts/styled.mootools.js"></script>
 ```
 
@@ -44,7 +44,7 @@ Replace your document's opening `<html>` tag with
 <!--[if (gt IE 7)|!(IE)]><!--> <html class=""> <!--<![endif]-->
 ```
 
-### 4. Add the "styled" class to any `<select>`'s you want to style:
+### 4. Add the "styled" class to any `<select>`'s you'd like to style:
 
 ```html
 <select class="styled">
@@ -52,7 +52,8 @@ Replace your document's opening `<html>` tag with
 </select>
 ```
 
-## Example
+## Live Demo
+
 
 ```html
 <!DOCTYPE html>
@@ -84,15 +85,14 @@ Replace your document's opening `<html>` tag with
 </body>
 </html>
 ```
-## Live Demo
 
 http://jsfiddle.net/Bgj5x/
 
 ## To Do
 
-- Add unit tests
-- Add configurable options
-- Add support for checkboxes & radio buttons
+- Unit tests
+- Configurable options
+- Support for checkboxes & radio buttons
 
 ## License
 
