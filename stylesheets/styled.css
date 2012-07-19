@@ -1,0 +1,133 @@
+* {
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font: 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.select.styled {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+}
+.select.styled a {
+  color: #333;
+  display: inline-block;
+  padding: 10px 12px;
+  position: relative;
+  text-decoration: none;
+}
+.select.styled a.head {
+  background-color: #f5f5f5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f5f5), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(#f5f5f5, #eeeeee);
+  background-image: -moz-linear-gradient(#f5f5f5, #eeeeee);
+  background-image: -o-linear-gradient(#f5f5f5, #eeeeee);
+  background-image: -ms-linear-gradient(#f5f5f5, #eeeeee);
+  background-image: linear-gradient(#f5f5f5, #eeeeee);
+  margin-right: 1px;
+  padding-right: 25px;
+  position: relative;
+}
+.select.styled a.head:hover {
+  background-color: #4b95e5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4b95e5), color-stop(100%, #3588e2));
+  background-image: -webkit-linear-gradient(#4b95e5, #3588e2);
+  background-image: -moz-linear-gradient(#4b95e5, #3588e2);
+  background-image: -o-linear-gradient(#4b95e5, #3588e2);
+  background-image: -ms-linear-gradient(#4b95e5, #3588e2);
+  background-image: linear-gradient(#4b95e5, #3588e2);
+  color: #fff;
+}
+.select.styled .arrow {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAICAMAAAAcEyWHAAAAHlBMVEW7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7sAAAC7u7sARzplAAAACXRSTlMRZqpEiCK73QDfeZawAAAAMUlEQVR42i3GyREAMAjDQHMETP8NB0j00CyyXgn5EjAWQdBW1qI2lKPTOit6OZ+Q8wtXEgIXJVjJ1QAAAABJRU5ErkJggg==");
+  height: 8px;
+  width: 9px;
+  position: absolute;
+  right: 8px;
+  top: 16px;
+}
+.select.styled.hover a.head,
+.select.styled a:hover {
+  background-color: #4b95e5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4b95e5), color-stop(100%, #3588e2));
+  background-image: -webkit-linear-gradient(#4b95e5, #3588e2);
+  background-image: -moz-linear-gradient(#4b95e5, #3588e2);
+  background-image: -o-linear-gradient(#4b95e5, #3588e2);
+  background-image: -ms-linear-gradient(#4b95e5, #3588e2);
+  background-image: linear-gradient(#4b95e5, #3588e2);
+  color: #fff;
+}
+.select.styled.hover a.head.head,
+.select.styled a:hover.head {
+  border: solid #3588e2;
+  border-width: 0 1px;
+  margin-left: -1px;
+}
+.select.styled.hover a.head .arrow,
+.select.styled a:hover .arrow {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAICAMAAAAcEyWHAAAAHlBMVEX///////////////////////////////8AAAD////lfabjAAAACXRSTlMRZqpEiCK73QDfeZawAAAAMUlEQVR42i3GyREAMAjDQHMETP8NB0j00CyyXgn5EjAWQdBW1qI2lKPTOit6OZ+Q8wtXEgIXJVjJ1QAAAABJRU5ErkJggg==");
+}
+.select.styled ul {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -ms-border-radius: 0 0 4px 4px;
+  -o-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  display: none;
+  min-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: -1px;
+  top: 38px;
+  width: 100%;
+  z-index: 100;
+}
+.select.styled ul li {
+  display: block;
+  margin: 0;
+}
+.select.styled ul a {
+  border: 0;
+  display: block;
+  padding: 5px 12px;
+}
+.select.styled ul a.cur, .select.styled ul a.cur:hover {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  background: #eee;
+  font-weight: bold;
+  color: #bbb;
+  cursor: default;
+}
+.select.styled ul a.last {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -ms-border-radius: 0 0 4px 4px;
+  -o-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+.select.styled.hover ul {
+  display: block;
+}
+
+.ie7 .select.styled ul {
+  left: 0;
+}
+
+.ie6 .select.styled a.head, .ie6 .select.styled.hover a.head {
+  margin: 0 2px 0 0;
+}
+.ie6 .select.styled ul {
+  left: 0;
+}
